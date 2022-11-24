@@ -14,9 +14,14 @@ Why WebDriver is an API(Application Programming Interface)?
 Database (Backend Layer)---> Application/Web Server(Business Logic/API)---> GUI/UI Layer(Presentation Layer)
 Database Testing---> API Testing(PostMan/RestAPI)---> GUI Testing(Selenium)
 
+What is Selenium Architecture?
 Refer the Selenium Architecture Diagram
 Code will be interacted to JSON(Wire Protocol) and JSON will be interacted with the Browser Driver. 
 Then Browser Driver will interacted with the Browser by W3C Protocol.
+Selenium 3 
+Selenium Language Bindings---JSON Wire Protocols---Browser Drivers---W3C---Browsers
+Selenium 4
+Selenium Language Bindings---W3C---Browser Drivers---W3C---Browsers
 
 Browser Drivers should be downloaded to interact with the Browser.
 
