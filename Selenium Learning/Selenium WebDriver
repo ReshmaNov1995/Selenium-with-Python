@@ -6,3 +6,9 @@ what is WebDriver?
   firefox browser = Firefox()
   chrome browser = Chrome()
   edge browser = Edge()
+  
+WebDriver is an API(Application Programming Interface)
+
+
+Database (Backend Layer)---> Application/Web Server(Business Logic/API)---> GUI/UI Layer(Presentation Layer)
+Database Testing---> API Testing---> UI Testing
