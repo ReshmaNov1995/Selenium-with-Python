@@ -1,4 +1,4 @@
-what is WebDriver?
+What is WebDriver?
   WebDriver is one of the component in Selenium. It is used to automate the Web Application.
   WebDriver is a Module.
   
@@ -7,8 +7,9 @@ what is WebDriver?
   chrome browser = Chrome()
   edge browser = Edge()
   
-WebDriver is an API(Application Programming Interface)
-
+Why WebDriver is an API(Application Programming Interface)?
+  Browser(Application Under Test)--->Browser Driver--->Web Driver(API)--->Automation Code.
+ Here WebDriver acts as API.
 
 Database (Backend Layer)---> Application/Web Server(Business Logic/API)---> GUI/UI Layer(Presentation Layer)
-Database Testing---> API Testing---> UI Testing
+Database Testing---> API Testing(PostMan/RestAPI)---> GUI Testing(Selenium)
