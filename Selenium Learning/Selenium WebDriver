@@ -9,7 +9,7 @@ What is WebDriver?
   
 Why WebDriver is an API(Application Programming Interface)?
   Browser(Application Under Test)--->Browser Driver--->Web Driver(API)--->Automation Code.
- Here WebDriver acts as API.
+ Here WebDriver acts as API between AUT & Automation Code.
 
 Database (Backend Layer)---> Application/Web Server(Business Logic/API)---> GUI/UI Layer(Presentation Layer)
 Database Testing---> API Testing(PostMan/RestAPI)---> GUI Testing(Selenium)
