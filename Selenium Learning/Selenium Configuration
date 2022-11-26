@@ -16,3 +16,8 @@ https://github.com/mozilla/geckodriver/releases
 Safari:
 
 https://webkit.org/blog/6900/webdriver-support-in-safari-10/
+
+
+Setup Selenium WebDriver,
+  1)Pycharm--->Project settings
+  2)pip install selenium=4.0.0.b4
