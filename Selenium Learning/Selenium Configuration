@@ -32,3 +32,4 @@ Setup Selenium WebDriver,
   2)In Terminal window,
   pip install selenium=4.0.0.b4(This will install the mentioned version)
   pip install selenium (This will install the default selenium version)
+
