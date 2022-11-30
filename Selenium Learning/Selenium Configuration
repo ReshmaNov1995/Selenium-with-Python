@@ -20,6 +20,8 @@ https://webkit.org/blog/6900/webdriver-support-in-safari-10/
 
 Setup Selenium WebDriver,
   1)Pycharm--->Project settings
-  File->Settings->Project->Python Interpreter->Click + button->Search Selenium->Choose Selenium->Click on Install Package
+  File->Settings->Project->Python Interpreter->Click + button->Search Selenium->Choose Selenium->Click on Install Package.
+  After the Selenium Package installed successfully. Selenium will be displayed in the Python Interpreter list. 
   
-  2)pip install selenium=4.0.0.b4
+  2)pip install selenium=4.0.0.b4(This will install the mentioned version)
+  pip install selenium (This will install the default selenium version)
