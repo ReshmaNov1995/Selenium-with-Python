@@ -1,3 +1,6 @@
 get()
 find_element(By.ID, "")
 find_elements(By.XPATH, "")
+send_keys()
+click()
+clear()
