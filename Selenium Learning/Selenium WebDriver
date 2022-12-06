@@ -1,6 +1,6 @@
 What is WebDriver?
   WebDriver is one of the component in Selenium. It is used to automate the Web Application.
-  WebDriver is a Module.
+  WebDriver is a Module in the selenium package.
   
   Classes for the browsers,
   firefox browser = Firefox()
