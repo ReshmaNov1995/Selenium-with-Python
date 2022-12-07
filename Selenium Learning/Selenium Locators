@@ -2,6 +2,18 @@ Using Locators:
   Identify the WebElement
   Perform Action on the WebElement
 
+Locators:
+  id
+  name
+  LinkText
+  PartialLinkText
+  ClassName
+  TagName
+  
+Customised Locators:
+  Xpath->Absolute Xpath, Relative Xpath
+  CSS Selector->Tag & id, Tag & Class, Tag & attribute, Tag Class & attribute
+  
 
 ID = "id"
 NAME = "name"
