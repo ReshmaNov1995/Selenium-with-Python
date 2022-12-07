@@ -1,3 +1,7 @@
+Using Locators:
+  Identify the WebElement
+  Perform Action on the WebElement
+
 
 ID = "id"
 NAME = "name"
