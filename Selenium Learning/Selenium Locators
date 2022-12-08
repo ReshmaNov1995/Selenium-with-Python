@@ -12,7 +12,7 @@ Locators:
   
 Customised Locators:
   Xpath->Absolute Xpath, Relative Xpath
-  CSS Selector(Cascading Style sheets)->Tag & id, Tag & Class, Tag & attribute, Tag Class & attribute
+  CSS Selector(Cascading Style sheets)->Tag & id, Tag & Class, Tag & attribute, Tag, Class & attribute
   
 
 ID = "id"
