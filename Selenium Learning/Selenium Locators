@@ -23,3 +23,6 @@ PARTIAL_LINK_TEXT = "partial link text"
 TAG_NAME = "tag name"
 CLASS_NAME = "class name"
 CSS_SELECTOR = "css selector"
+
+id, name, linktext, partiallinktext - find 1 element
+classname, tagname - find more than 1 element
