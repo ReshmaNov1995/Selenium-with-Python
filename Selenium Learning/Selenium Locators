@@ -15,7 +15,7 @@ Customised Locators:
   CSS Selector(Cascading Style sheets)->(tagname is non-mandatory)
     Tag & id, tagname#valueofid input#email can also use value as #email
     Tag & Class, tagname.valueofclass input.inputtext _55r1 _6luy
-    Tag & attribute, 
+    Tag & attribute, tagname[attribute=value]
     Tag, Class & attribute
   
 
