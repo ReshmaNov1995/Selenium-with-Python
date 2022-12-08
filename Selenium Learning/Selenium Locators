@@ -11,16 +11,17 @@ Locators:
   TagName
   
 Customised Locators:
-  Xpath->Absolute Xpath, Relative Xpath
-  CSS Selector(Cascading Style sheets)->(tagname is non-mandatory)
+  CSS Selector(Cascading Style sheets)->(tagname is non-mandatory),
     Tag & id, tagname#valueofid input#email can also use value as #email
     Tag & Class, tagname.valueofclass input.inputtext _55r1 _6luy Can also use value as .inputtext
     Tag & attribute, tagname[attribute=value] input[data-testid=royal_email] Can also use value as [data-testid=royal_email]
-    Tag, Class & attribute 
+    Tag, Class & attribute(This 'll be used if tag&class values are same for more than 1 field) tagname.valueofclass[attribute=value] Can also use value as .inputtext[data-testid=royal_pass]
+  
+  Xpath->Absolute Xpath, Relative Xpath,
   
 
 ID = "id"
-NAME = "name"
+NAME = "name"Xpath->Absolute Xpath, Relative Xpath
 XPATH = "xpath"
 LINK_TEXT = "link text"
 PARTIAL_LINK_TEXT = "partial link text"
