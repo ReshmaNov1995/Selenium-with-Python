@@ -14,7 +14,7 @@ Customised Locators:
   Xpath->Absolute Xpath, Relative Xpath
   CSS Selector(Cascading Style sheets)->(tagname is non-mandatory)
     Tag & id, tagname#valueofid input#email can also use value as #email
-    Tag & Class, 
+    Tag & Class, tagname.valueofclass input.inputtext _55r1 _6luy
     Tag & attribute, 
     Tag, Class & attribute
   
