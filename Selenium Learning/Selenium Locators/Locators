@@ -25,7 +25,9 @@ Customised Locators:
     Xpath is an Address of the element.
   Types of Xpath,
     Absolute Xpath(Full Xpath)
+      Ex: /html/body/nav/div/div/div[2]/ul/li[1]/a
     Relative Xpath(Partial Xpath)
+      Ex: //*[@id="navbarSupportedContent"]/div[2]/ul/li[1]/a
     
     
  
