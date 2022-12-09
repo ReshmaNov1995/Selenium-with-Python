@@ -5,5 +5,7 @@ Relative Xpath,
 Absolute Xpath,
   Exact line of statement to going upward by drilling down the parent tags.
   
-  
+Syntax of writing Xpath,
+//tagname[@attribute='valueofattribute']
+
 Refer Locator-05.py
