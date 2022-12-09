@@ -30,7 +30,7 @@ Customised Locators:
       Ex: //*[@id="navbarSupportedContent"]/div[2]/ul/li[1]/a
     
     
- 
+
 
 id, name, linktext, partiallinktext - find 1 element
 classname, tagname - find more than 1 element
