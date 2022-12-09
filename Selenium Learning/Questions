@@ -1,2 +1,6 @@
 what is xpath?
+
 What is DOM?
+  Document Object Model(DOM) is an API Interface provided by a browser.
+  When a webpage is loaded, browser creates a DOM of the webpage.
+  Xpath works in DOM view.
