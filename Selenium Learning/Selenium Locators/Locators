@@ -3,12 +3,12 @@ Using Locators:
   Perform Action on the WebElement
 
 Locators:
-  id
-  name
-  LinkText
-  PartialLinkText
-  ClassName
-  TagName
+  ID = "id"
+  NAME = "name"
+  LINK_TEXT = "link text"
+  PARTIAL_LINK_TEXT = "partial link text"
+  TAG_NAME = "tag name"
+  CLASS_NAME = "class name"
   
 Customised Locators:
   CSS Selector(Cascading Style sheets)->(tagname is non-mandatory),
@@ -23,16 +23,11 @@ Customised Locators:
     Xpath is used to find the location of any element on a webpage using HTML DOM structure.
     Xpath can be used to navigate through elements & attributes in DOM.
     Xpath is an Address of the element.
-  
-
-ID = "id"
-NAME = "name"Xpath->Absolute Xpath, Relative Xpath
-XPATH = "xpath"
-LINK_TEXT = "link text"
-PARTIAL_LINK_TEXT = "partial link text"
-TAG_NAME = "tag name"
-CLASS_NAME = "class name"
-CSS_SELECTOR = "css selector"
+  Types of Xpath,
+    Relative Xpath
+    Absolute Xpath
+    
+ 
 
 id, name, linktext, partiallinktext - find 1 element
 classname, tagname - find more than 1 element
