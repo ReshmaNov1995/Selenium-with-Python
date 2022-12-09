@@ -25,4 +25,7 @@ contains:
   //*[contains(@id,'value')] value represents the partial id value.
 starts-with:
   //*[starts-with(@id,'value')] value represents the partial id value.
-contains & starts-with mostly used for dynamic elements
+  
+contains & starts-with, or mostly used for dynamic elements,
+  or--> Ex: //input[@id='start' or @id='stop']
+
