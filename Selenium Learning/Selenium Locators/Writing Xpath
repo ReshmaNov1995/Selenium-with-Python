@@ -7,5 +7,7 @@ Absolute Xpath,
   
 Syntax of writing Xpath,
 //tagname[@attribute='valueofattribute']
+              OR
+//*[@attribute='valueofattribute']
 
 Refer Locator-05.py
