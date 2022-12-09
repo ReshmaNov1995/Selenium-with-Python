@@ -24,8 +24,9 @@ Customised Locators:
     Xpath can be used to navigate through elements & attributes in DOM.
     Xpath is an Address of the element.
   Types of Xpath,
-    Relative Xpath
-    Absolute Xpath
+    Absolute Xpath(Full Xpath)
+    Relative Xpath(Partial Xpath)
+    
     
  
 
