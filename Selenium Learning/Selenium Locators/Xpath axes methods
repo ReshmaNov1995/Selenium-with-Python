@@ -1,1 +1,11 @@
+self
+parent
+child
+ancestor
+descendant
+following
+following-sibling
+preceding
+preceding-sibling
 
+Using Xpath axes, Can traverse from top to bottom & bottom to top
