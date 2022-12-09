@@ -17,7 +17,12 @@ Xpath Options:
   starts-with()
   text()
 
-or:
-  //tagname[@attribute='value' or @attribute='value']
 and:
   //tagname[@attribute='value' and @attribute='value']
+or:
+  //tagname[@attribute='value' or @attribute='value']
+contains:
+  //*[contains(@id,'value')] value represents the partial id value.
+starts-with:
+  //*[starts-with(@id,'value')] value represents the partial id value.
+contains & starts-with mostly used for dynamic elements
