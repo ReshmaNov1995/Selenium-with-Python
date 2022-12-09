@@ -1,1 +1,9 @@
+Relative Xpath,
+  Exact line of statement's locator or nearest locator.
+  If nearest locator, drill down to the exact tag line.
+  
+Absolute Xpath,
+  Exact line of statement to going upward by drilling down the parent tags.
+  
+  
 Refer Locator-05.py
