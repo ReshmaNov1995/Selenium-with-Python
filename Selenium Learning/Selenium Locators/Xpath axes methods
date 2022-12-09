@@ -1,12 +1,12 @@
-self
-parent
-child
-ancestor - inner node
-descendant - inner node
-following - equal node
-following-sibling-->equal node's sibling
-preceding - equal node
-preceding-sibling-->equal node's sibling
+self - current node
+parent - outer
+child - inner
+ancestor - outer(outer) node
+descendant - inner(inner) node
+following - equal node(down)
+following-sibling-->equal node's(down) sibling
+preceding - equal node(up)
+preceding-sibling-->equal node's(up) sibling
 
 Using Xpath axes, Can traverse from top to bottom & bottom to top
 
