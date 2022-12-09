@@ -4,9 +4,9 @@ child
 ancestor - inner node
 descendant - inner node
 following - equal node
-following-sibling
+following-sibling-->equal node's sibling
 preceding - equal node
-preceding-sibling
+preceding-sibling-->equal node's sibling
 
 Using Xpath axes, Can traverse from top to bottom & bottom to top
 
