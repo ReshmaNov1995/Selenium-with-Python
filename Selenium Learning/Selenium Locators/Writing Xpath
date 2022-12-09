@@ -10,4 +10,14 @@ Syntax of writing Xpath,
               OR
 //*[@attribute='valueofattribute']
 
-Refer Locator-05.py
+Xpath Options:
+  and
+  or
+  contains()
+  starts-with()
+  text()
+
+or:
+  //tagname[@attribute='value' or @attribute='value']
+and:
+  //tagname[@attribute='value' and @attribute='value']
