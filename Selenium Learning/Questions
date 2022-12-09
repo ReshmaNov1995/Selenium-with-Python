@@ -1,9 +1,9 @@
-What is DOM?
+1)What is DOM?
   Document Object Model(DOM) is an API Interface provided by a browser.
   When a webpage is loaded, browser creates a DOM of the webpage.
   Xpath works in DOM view.
   
-what is xpath?
+2)What is xpath?
   Xpath is defined as XML Path.
     It is a syntax or language for finding any element on the web page using XML path expression.
     Xpath is used to find the location of any element on a webpage using HTML DOM structure.
@@ -11,7 +11,7 @@ what is xpath?
     Xpath is an Address of the element.
     Types: Relative Xpath & Absolute Xpath
     
-Difference b/w Absolute & Relative Xpath.
+3)Difference b/w Absolute & Relative Xpath.
   1)Absolute Xpath startes from root node
     Relative Xpath directly jumps to the Element
   
@@ -20,3 +20,8 @@ Difference b/w Absolute & Relative Xpath.
   
   3)In Absolute Xpath, we use only tags or nodes
     In Relative Xpath, we use attributes, tags or nodes
+
+4) Which type of Xpath is preferred to use? Why?
+    Relative Xpath. 
+    It is more stable when compared to Absolute Xpath. 
+    Code Modifications & Updations of elements can be handled. Because there is a chance of missing hierarchy in Absolute Xpath. 
