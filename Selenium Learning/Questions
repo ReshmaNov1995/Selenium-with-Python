@@ -27,4 +27,8 @@
     Code Modifications & Updations of elements can be handled. Because there is a chance of missing hierarchy in Absolute Xpath. 
 
 5) Diff b/w find_element() & find_elements().
-    
+    find_element() will return the single element
+    element's value can be fetched using text keyword
+    find_elements() will return the list of elements
+    element's value can't be fetched using text keyword. It can be fetched using element's index.
+    Refer FindElement&FindElements.py file for refernce
