@@ -25,3 +25,6 @@
     Relative Xpath. 
     It is more stable when compared to Absolute Xpath. 
     Code Modifications & Updations of elements can be handled. Because there is a chance of missing hierarchy in Absolute Xpath. 
+
+5) Diff b/w find_element() & find_elements().
+    
