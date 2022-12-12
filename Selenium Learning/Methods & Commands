@@ -1,5 +1,4 @@
 Methods:
-
   get()
   find_element(By.ID, "")
   find_elements(By.XPATH, "")
@@ -11,8 +10,8 @@ Methods:
   maximize_window()
 
 Commands:
-  get commands
-  conditional commands
-  browser commands
-  navigational commands
-  wait commands
+  1) get commands
+  2) conditional commands
+  3)browser commands
+  4) navigational commands
+  5) wait commands
