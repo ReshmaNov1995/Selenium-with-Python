@@ -20,8 +20,10 @@ application commands:
   title - get the title of the page
   current_url - get the current url
   page_source - get the source code
+  
 conditional commands:
-  is_displayed()
-  is_enabled()
-  is_selected()
+  is_displayed() - element is displayed or not
+  is_enabled() - element is enabled or disabled
+  is_selected() - used for radiobuttons & checkboxes
+These commands returns only boolean values
   
