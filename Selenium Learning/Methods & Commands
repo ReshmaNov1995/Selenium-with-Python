@@ -1,0 +1,18 @@
+Methods:
+
+  get()
+  find_element(By.ID, "")
+  find_elements(By.XPATH, "")
+  send_keys()
+  click()
+  clear()
+  close()->will close the current browser window
+  quit()->will close all the browser window
+  maximize_window()
+
+Commands:
+  get commands
+  conditional commands
+  browser commands
+  navigational commands
+  wait commands
