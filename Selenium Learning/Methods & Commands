@@ -26,6 +26,6 @@ conditional commands:
 These commands returns only boolean values
   
 browser commands:
-  close()->will close the current browser window & browser specific process 'll be running
+  close()->will close the first browser window & browser specific process 'll be running
   close() will close the first opened browser window.
-  quit()->will close all the browser window & browser specific process 'll be stopped
+  quit()->will close all the browser window & browser specific process 'll be killed
