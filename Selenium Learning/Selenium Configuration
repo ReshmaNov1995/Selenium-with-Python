@@ -33,3 +33,5 @@ Setup Selenium WebDriver,
   pip install selenium=4.0.0.b4(This will install the mentioned version)
   pip install selenium (This will install the default selenium version)
 
+Install webdriver-manager from settings. then use the statement,
+driver=webdriver.Chrome(ChromeDriverManager().install())
