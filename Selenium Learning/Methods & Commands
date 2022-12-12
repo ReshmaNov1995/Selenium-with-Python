@@ -31,7 +31,7 @@ browser commands:
   quit()->will close all the browser window & browser specific process 'll be killed
 
 navigational commands:
-  back()
-  forward()
-  refresh()
+  back() - click backward arrow
+  forward() - click forward arrow
+  refresh() - refresh the url
   
