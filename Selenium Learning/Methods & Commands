@@ -29,3 +29,9 @@ browser commands:
   close()->will close the first or driver focused browser window & browser specific process 'll be running
   close() will close the first opened or driver focused browser window.
   quit()->will close all the browser window & browser specific process 'll be killed
+
+navigational commands:
+  back()
+  forward()
+  refresh()
+  
