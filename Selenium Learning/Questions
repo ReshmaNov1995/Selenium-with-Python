@@ -38,7 +38,3 @@
     ex: <input id ='123' class = 'name'> Email: </input> Here Email: is inner text
     get attribute - will return the value of any attribute of webelement. 'value' is used especially for the fields.
     
-    
-    
-    
-
