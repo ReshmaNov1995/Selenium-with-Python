@@ -10,8 +10,18 @@ Methods:
   maximize_window()
 
 Commands:
-  1) get commands
+  1) get commands(application)
   2) conditional commands
   3)browser commands
   4) navigational commands
   5) wait commands
+  
+application commands:
+  title - get the title of the page
+  current_url - get the current url
+  page_source - get the source code
+conditional commands:
+  is_displayed()
+  is_enabled()
+  is_selected()
+  
