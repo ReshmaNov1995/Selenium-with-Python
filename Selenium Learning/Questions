@@ -32,3 +32,7 @@
     find_elements() will return the list of elements
     element's value can't be fetched using text keyword. It can be fetched using element's index.
     Refer FindElement&FindElements.py file for refernce
+    
+6) Diff b/w text & get attribute.
+
+
