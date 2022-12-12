@@ -7,6 +7,7 @@ Methods:
   clear()
   len()
   maximize_window()
+  get_attribute('value')
 
 Commands:
   1) get commands(application)
