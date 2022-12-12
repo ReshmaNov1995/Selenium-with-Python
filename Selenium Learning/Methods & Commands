@@ -5,14 +5,12 @@ Methods:
   send_keys()
   click()
   clear()
-  close()->will close the current browser window
-  quit()->will close all the browser window
   maximize_window()
 
 Commands:
   1) get commands(application)
   2) conditional commands
-  3)browser commands
+  3) browser commands
   4) navigational commands
   5) wait commands
   
@@ -27,3 +25,7 @@ conditional commands:
   is_selected() - used for radiobuttons & checkboxes
 These commands returns only boolean values
   
+browser commands:
+  close()->will close the current browser window & browser specific process 'll be running
+  close() will close the first opened browser window.
+  quit()->will close all the browser window & browser specific process 'll be stopped
