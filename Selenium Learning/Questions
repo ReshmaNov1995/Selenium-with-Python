@@ -36,7 +36,7 @@
 6) Diff b/w text & get attribute.
     text - will return the inner text of the element.
     ex: <input id ='123' class = 'name'> Email: </input> Here Email: is inner text
-    get attribute - will return the value of any attribute of webelement.
+    get attribute - will return the value of any attribute of webelement. 'value' is used especially for the fields.
     
     
     
