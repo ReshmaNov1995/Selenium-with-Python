@@ -5,6 +5,7 @@ Methods:
   send_keys()
   click()
   clear()
+  len()
   maximize_window()
 
 Commands:
