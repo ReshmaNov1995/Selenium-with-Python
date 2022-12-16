@@ -36,5 +36,4 @@ navigational commands:
   back() - click backward arrow
   forward() - click forward arrow
   refresh() - refresh the url
-  
-  Motherson Testing
+ 
