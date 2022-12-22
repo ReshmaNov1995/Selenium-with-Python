@@ -9,3 +9,5 @@ wait:
   
 time.sleep(time)
   
+time -  It 'll stop the program execution for the mentioned time period. Performance of the script will not be good.
+Because, if the element is not fetched in the DOM within the time interval. This 'll leads to failure.
