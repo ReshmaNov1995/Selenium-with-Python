@@ -38,3 +38,7 @@
     ex: <input id ='123' class = 'name'> Email: </input> Here Email: is inner text
     get attribute - will return the value of any attribute of webelement. 'value' is used especially for the fields.
     
+7) What is wait commands? Advantages & DisAdvantages of it.
+    Selenium Wait is just a set of commands that wait for a specified period of time before executing test scripts on the elements.
+    Refer wait commands
+  
