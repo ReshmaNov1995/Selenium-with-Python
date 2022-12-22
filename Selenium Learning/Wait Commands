@@ -15,11 +15,17 @@ Because, if the element is not available in the DOM within the time interval. Th
 time.sleep function is used to add delay in the execution of a program. We can use python sleep function to halt the execution of the program for given time in seconds. 
 Notice that python time sleep function actually stops the execution of current thread only, not the whole program.
 
+driver.implicitly_wait(time)
+
 implicit wait - It has to be written while starting the script. Because, this will handle the synchronization problem for every line of code.
 if the element is not available in the DOM within the time interval. This 'll leads to failure.
 
 implicit wait tells WebDriver to poll the DOM for a certain amount of time when trying to find any element (or elements) not immediately available. 
 The default setting is 0. Once set, the implicit wait is set for the life of the WebDriver object.
 
+explicitwait = WebDriverWait(driver, 10, poll_frequency=2, ignored_exceptions= [Exception])
+explicitwait.until(EC.presence_of_element_located((By.XPATH, "//h3[text()='Selenium']")))
+
 explicit wait -  works based on certain condition not by a time.
-Declaring and Utilising explicit wait
+Declaring and Utilising explicit wait.
+
