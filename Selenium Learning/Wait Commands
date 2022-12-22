@@ -1,1 +1,4 @@
+Wait commands is used to solve the Synchronization problem
 
+Synchronization Problem:
+  Script will executes faster but the Application response will be slower.
