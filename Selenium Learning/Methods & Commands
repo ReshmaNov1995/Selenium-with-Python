@@ -32,6 +32,9 @@ browser commands:
   close()->will close the first or driver focused browser window & browser specific process 'll be running
   close() will close the first opened or driver focused browser window.
   quit()->will close all the browser window & browser specific process 'll be killed
+  
+  you are upload amazing things abput selenium using python
+  i am also learning selenium using python.
 
 navigational commands:
   back() - click backward arrow
