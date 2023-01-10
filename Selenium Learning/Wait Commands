@@ -28,3 +28,5 @@ explicitwait.until(EC.presence_of_element_located((By.XPATH, "//h3[text()='Selen
 
 explicit wait -  works based on certain condition not by a time.
 Declaring and Utilising explicit wait.
+
+closed 13 points ,8 point is Reopen.
