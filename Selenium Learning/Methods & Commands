@@ -39,3 +39,4 @@ navigational commands:
   refresh() - refresh the url
  
 To escape from auto closing of the browser refer the file Browser_commands.py
+
