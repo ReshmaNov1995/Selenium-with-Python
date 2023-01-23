@@ -4,4 +4,6 @@ Types of Link:
   Broken Link - Link without any target
   
 Broken link used for future implementation
-anchor tag represents link
+
+anchor tag represents link, href -  hyperlink reference
+<a href = '    '/>
