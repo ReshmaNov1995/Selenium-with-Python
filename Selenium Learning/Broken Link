@@ -7,3 +7,4 @@ Code below 400 are valid links.
 requests.head(url)-->It 'll give response from the url. It's a internal action.
 We can extract anything from this response like, status_code, cookies, body etc.
 
+Note: While using requests, Exception should be handled. Bcoz it's a client server communication. so, there is a chance of exception.
