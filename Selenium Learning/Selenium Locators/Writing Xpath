@@ -28,3 +28,6 @@ starts-with:
   
 contains & starts-with, or mostly used for dynamic elements,
   or--> Ex: //input[@id='start' or @id='stop']
+
+If the webelement has texts with space use normalize-space()='text'.
+Ex: //button[normalize-space()='Click for JS Prompt']
