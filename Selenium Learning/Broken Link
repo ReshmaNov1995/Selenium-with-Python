@@ -4,3 +4,6 @@ Code below 400 are valid links.
 
 "requests" to be installed it's a pre-requesite.
 
+requests.head(url)-->It 'll give response from the url. It's a internal action.
+We can extract anything from this response like, status_code, cookies, body etc.
+
