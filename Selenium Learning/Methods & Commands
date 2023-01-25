@@ -23,8 +23,8 @@ application commands:
   page_source - get the source code
   
 conditional commands:
-  is_displayed() - element is displayed or not
-  is_enabled() - element is enabled or disabled
+  is_displayed() - The isDisplayed() method in Selenium is used to find out whether an element is present on the web page (in the current browsing context) or not.
+  is_enabled() - The isEnabled() method in Selenium is used to find out whether an element is enabled on the web page (in the current browsing context) or not.
   is_selected() - used for radiobuttons & checkboxes
 These commands returns only boolean values
   
