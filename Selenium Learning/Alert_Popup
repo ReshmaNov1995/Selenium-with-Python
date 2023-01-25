@@ -1,2 +1,6 @@
 Alert window is not a web element
 
+driver.switch_to.alert
+text
+accept
+dismiss
