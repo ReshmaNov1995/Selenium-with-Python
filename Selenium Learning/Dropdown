@@ -11,3 +11,5 @@ options will return all the option under the button/select/* classs as a web ele
 1) select option from dropdown
 
 2) Select option from dropdown without using built-in function
+
+3) Actions without using Select class
