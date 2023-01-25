@@ -5,7 +5,7 @@ alert.text
 alert.accept()
 alert.dismiss()
 
-Authentication pop up will allow the authenticated person only. 
+Authentication pop up will allow the authenticated person only. Here we are injecting the username & password through the url.
   
   url: https://the-internet.herokuapp.com/basic_auth
   Syx: http://textbox1:textbox2@url
