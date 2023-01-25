@@ -1,1 +1,6 @@
-There is a Select class on that class pass the dropdown element
+There is a Select class, on that class pass the dropdown element.
+Ex : country = Select(driver.find_element(By.XPATH, "//select[@id='input-country']"))
+
+country.select_by_visible_text("India") # Preferable
+country.select_by_value("4") 
+country.select_by_index(13)
