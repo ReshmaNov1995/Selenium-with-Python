@@ -5,9 +5,9 @@ country.select_by_visible_text("India") # Preferable
 country.select_by_value("4") 
 country.select_by_index(13)
 
-options will return all the option under the select classs as a web element.
+options will return all the option under the button/select/* classs as a web element.
 
 
-select option from dropdown
+1) select option from dropdown
 
-Select option from dropdown without using built-in function
+2) Select option from dropdown without using built-in function
