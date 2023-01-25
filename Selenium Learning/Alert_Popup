@@ -4,3 +4,11 @@ alert = driver.switch_to.alert
 alert.text
 alert.accept()
 alert.dismiss()
+
+Authentication pop up will allow the authenticated person only. 
+  
+  url: https://the-internet.herokuapp.com/basic_auth
+  Syx: http://textbox1:textbox2@url
+  Ex: http://admin:123@the-internet.herokuapp.com/basic_auth
+  
+ Ex:Tomcat Authentication Pop up
