@@ -1,6 +1,6 @@
 Alert window is not a web element
 
-driver.switch_to.alert
-text
-accept
-dismiss
+alert = driver.switch_to.alert
+alert.text
+alert.accept()
+alert.dismiss()
