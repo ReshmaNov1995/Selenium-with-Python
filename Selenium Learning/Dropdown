@@ -6,3 +6,8 @@ country.select_by_value("4")
 country.select_by_index(13)
 
 options will return all the option under the select classs as a web element.
+
+
+select option from dropdown
+
+Select option from dropdown without using built-in function
