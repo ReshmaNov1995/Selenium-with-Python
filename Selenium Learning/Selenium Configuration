@@ -37,3 +37,4 @@ Install webdriver-manager from settings. then use the statement,
 driver=webdriver.Chrome(ChromeDriverManager().install())
 This 'll automatically install the chromedriver from the browser.
 
+sde
