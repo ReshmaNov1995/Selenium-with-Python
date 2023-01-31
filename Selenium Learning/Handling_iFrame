@@ -1,7 +1,7 @@
 Window based app - Frames
 Web based app - iFrames
 
-driver.switch_to.frame(name_of_frame/id/web_element/index)
+driver.switch_to.frame(name_of_frame/id/web_element/index(0))
 
 Tag name of Frame will be,
   frame,iframe,form
