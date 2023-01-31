@@ -1,1 +1,4 @@
-
+# Switch to the required window.
+driver.switch_to.window(windowID)
+windowID is dynamic. Because while the url is passed in the browser, it 'll automatically create the window ID.
+    
