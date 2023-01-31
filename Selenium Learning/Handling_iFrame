@@ -11,3 +11,4 @@ Navigation -> Frame1 to Page to Frame2 to Page to Frame3 etc.....
 Switching occurs only b/w page to frame and viceversa. It can't be switched from one frame to the other.
 
 driver.switch_to.default_content() # Main page navigation.
+The above line is used only for Independant frames not for the dependant frames like inner frame.
