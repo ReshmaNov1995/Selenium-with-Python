@@ -1,1 +1,2 @@
+webdriver.ChromeOptions() # Is used for chrome settings
 
