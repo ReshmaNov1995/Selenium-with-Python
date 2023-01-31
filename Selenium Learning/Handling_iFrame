@@ -5,3 +5,6 @@ driver.switch_to.frame(name_of_frame/id/web_element/index(0))
 
 Tag name of Frame will be,
   frame,iframe,form
+
+Note: driver can't navigate from 1 frame to the other frame.
+Navigation -> Frame1 to Page to Frame2 to Page to Frame3 etc.....
