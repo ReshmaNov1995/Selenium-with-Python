@@ -6,6 +6,7 @@ Checkbox Operation
 Link
 Broken Link
 Dropdown
-Alert, Authentication Pop up
-iFrames
+Alert, Authentication Pop up, Notification Pop up
+iFrames, InnerFrame
 Browser Windows
+WebTable
