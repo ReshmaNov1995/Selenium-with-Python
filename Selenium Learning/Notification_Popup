@@ -3,3 +3,4 @@ webdriver.ChromeOptions() # Is used for chrome settings
 chrome_option = webdriver.ChromeOptions()
 chrome_option.add_argument("--disable-notifications")
 driver = webdriver.Chrome(service = Service(ChromeDriverManager().install()), options = chrome_option)
+Note: Here notification will not be Blocked or denied. It's jzt disable - will not allowed to appear on the screen.
