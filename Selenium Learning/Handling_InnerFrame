@@ -1,1 +1,2 @@
-
+# Navigate from innerframe to parentframe
+driver.switch_to.parent_frame()
