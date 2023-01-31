@@ -1,1 +1,15 @@
+Static webtable
+Dynamic webtable
 
+Tags - table
+tbody
+tr - tablerow
+th - tableheader
+
+ # Parameterised XPath, which means dynamic xpath. Injecting row & column values.
+ Syx:
+ driver.find_element(By.XPATH, "//table[@name='BookTable']//tr["+str(r)+"]/td["+str(c)+"]") 
+ tr[2]-->tr["+str(dynamicvalue)+"]
+ td[5]-->td["+str(dynamicvalue)+"]
+ Ex:
+ all_data = driver.find_element(By.XPATH, "//table[@name='BookTable']//tr["+str(r)+"]/td["+str(c)+"]")
