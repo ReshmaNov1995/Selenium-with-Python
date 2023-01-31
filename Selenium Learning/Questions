@@ -63,3 +63,6 @@
     driver.switch_to.window(particluar_windowID)
     driver.close()
     Refer Handle_browserwindows.py
+
+14) How to Parameterised XPath, which means dynamic xpath. Injecting row & column values.
+    Refer WebTable file
