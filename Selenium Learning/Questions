@@ -60,4 +60,6 @@
     HTML loads first then UI will be loaded at the tym of UI loading DOM structure will be created. DOM structure is mainly used for finding XPath.
     
 13) How to close the particular window in the browser.
-    
+    driver.switch_to.window(particluar_windowID)
+    driver.close()
+    Refer Handle_browserwindows.py
