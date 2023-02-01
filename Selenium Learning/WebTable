@@ -5,6 +5,7 @@ Tags - table
 tbody
 tr - tablerow
 th - tableheader
+td - tabledata
 
  # Parameterised XPath, which means dynamic xpath. Injecting row & column values.
  Syx:
