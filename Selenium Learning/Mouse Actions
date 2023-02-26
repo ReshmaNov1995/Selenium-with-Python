@@ -1,8 +1,11 @@
-Using ActionChains class we are going to perform the mouse opeations
+Using ActionChains class we are going to perform the mouse opeations.
+object of Actionchains class - Actionchains(driver)
 
-Mouse hover
-Right click
-Double click
-Drag & Drop
+Mouse Actions:
+      Mouse hover
+      Right click
+      Double click
+      Drag & Drop
 
-Mouse Hover
+1) Mouse Hover - move_to_element(element to be moved)
+2) Right Click - context_click(element to be rightclicked).perform()
