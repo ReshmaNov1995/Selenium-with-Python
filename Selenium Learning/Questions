@@ -69,3 +69,7 @@
     
 15) How to handle Mouse Action? What are all the methods used for performing the Mouse Actions.
     Using ActionChains class Mouse Actions will be performed. Refer Mouse Actions file.
+
+16) How to measure the location of the ELement.
+    Location - X.Y Axis
+    min_slider.location - It will give both x,y value.
