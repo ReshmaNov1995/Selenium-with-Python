@@ -9,3 +9,5 @@ Mouse Actions:
 
 1) Mouse Hover - move_to_element(element to be moved)
 2) Right Click - context_click(element to be rightclicked).perform()
+3) Double Click - double_click(element to be doubleclicked).perform()
+4) Drag & Drop - drag_and_drop(source element, target element).perform()
