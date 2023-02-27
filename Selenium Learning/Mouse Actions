@@ -12,3 +12,12 @@ Mouse Actions:
 3) Double Click - double_click(element to be doubleclicked).perform()
 4) Drag & Drop - drag_and_drop(source element, target element).perform()
 5) Slider - drag_and_drop_by_offset(Source, X, Y).perform() # 0 is a default value
+6) Scrolling -
+                  scroll down by pixel - driver.execute_script("window.scrollBy(0,Y)", "")
+                                         driver.execute_script("return window.pageYOffset") # know the position of Y-axis
+                  scroll down till element is visible - driver.execute_script("argument[0].scrollIntoView();", element)
+                  scroll till end of the page - driver.execute_script("window.scrollBy(0, document.body.scrollHeight)")
+                  scroll up page by pixel - driver.execute_script("window.scrollBy(0,-value)")
+                  Horizontall scroll to the page - driver.execute_script("window.scrollBy(document.body.scrollHeight, 0)")
+                  scroll up the page by Keys - driver.find_element(By.TAG_NAME, "body").send_keys(Keys.CONTROL + Keys.HOME)
+                  scroll down the page by keys - driver.find_element(By.TAG_NAME, "body").send_keys(Keys.CONTROL + Keys.END)
