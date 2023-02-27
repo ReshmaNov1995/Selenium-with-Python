@@ -1,1 +1,15 @@
+Using ActionChains class we are going to perform the Keyboard opeations.
+object of Actionchains class - Actionchains(driver)
 
+act = ActionChains(driver)
+
+act.key_down(Keys.CONTROL) # key press
+act.key_up(Keys.CONTROL) # key release
+act.perform()
+# Alphabets can be passed like,
+act.send_keys("a").perform()
+
+act.key_down(Keys.CONTROL)
+act.send_keys(Keys.END)
+act.key_up(Keys.CONTROL)
+act.perform()
