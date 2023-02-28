@@ -1,3 +1,11 @@
 File Download:
               Location can set up to download via code.
               Ex: preferences = {"download.default directory":"E:\Downloads"}
+             
+Instead of this use,
+import os
+location = os.getcwd (getcurrentworkingdirectory)
+preferences = {"download.default directory":location}
+chrome_option = webdriver.ChromeOptions()
+chrome_option.add_experimental_option("prefs", preferences) # prefs is default
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_option)
