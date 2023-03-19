@@ -73,3 +73,5 @@
 16) How to measure the location of the ELement.
     Location - X.Y Axis
     min_slider.location - It will give both x,y value.
+
+17) File operations are not preferred in Automation especially File Download & File Upload.
