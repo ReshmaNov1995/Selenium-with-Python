@@ -5,7 +5,13 @@ File Download:
 Instead of this use,
 import os
 location = os.getcwd (getcurrentworkingdirectory)
-preferences = {"download.default directory":location}
+preferences = {"download.default_directory":location}
+
+preferences = {"download.default_directory": location, "plugins.always_open_pdf_externally": True} # This plugin key will automatically download PDF.
+
 chrome_option = webdriver.ChromeOptions()
 chrome_option.add_experimental_option("prefs", preferences) # prefs is default
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_option)
+
+
+File Upload
