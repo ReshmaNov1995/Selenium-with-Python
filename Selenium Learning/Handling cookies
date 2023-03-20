@@ -1,1 +1,12 @@
+cookies is a combination of attributes like,
+    name attribute="dfd", 
+    value attribute="123", 
+    expirydate attribute="2-4-20202" and so on...
+It's like a key & value pair.
+So, store it in  a dictionary which means 1 cookie will store in 1 dictionary.
 
+capture cookies from the browser
+Details of all cookies
+Add new cookie to the browser 
+Delete Specific cookie
+Delete all cookies
