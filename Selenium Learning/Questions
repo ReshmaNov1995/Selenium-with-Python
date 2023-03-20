@@ -75,3 +75,9 @@
     min_slider.location - It will give both x,y value.
 
 17) File operations are not preferred in Automation especially File Download & File Upload.
+
+18) What are the new features in Selenium 4 tabs & windows?
+    driver.get("https://www.opencart.com/")
+    driver.switch_to.new_window("tab") # It will open new tab
+    driver.switch_to.new_window("window") # It will open new window
+    driver.get("https://www.orangehrm.com/")
