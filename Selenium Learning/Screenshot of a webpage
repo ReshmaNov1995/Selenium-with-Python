@@ -1,2 +1,12 @@
 driver.save_screenshot(path\name with extension)
 Ex: driver.save_screenshot("E:\\Automation\\Practice_Selenium\\ss.png")
+
+# Also can write like,
+driver.save_screenshot(os.getcwd()+"\\ss.png")
+
+# Method - 2:
+driver.get_screenshot_as_file(os.getcwd()+"\\ss.png")
+
+# Method - 3:
+driver.get_screenshot_as_base64() # This will return in a binary format
+driver.get_screenshot_as_png() # This will return in a encoded format
