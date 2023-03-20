@@ -81,3 +81,11 @@
     driver.switch_to.new_window("tab") # It will open new tab
     driver.switch_to.new_window("window") # It will open new window
     driver.get("https://www.orangehrm.com/")
+
+19) What is Headless mode of Testing. Advantages?
+    Testing Actions will be performed in backend. 
+    Advantages: 
+      Parallely we can do something.
+      Execution will be faster. High performance. Time saving.
+     DisAdvantages:
+      Can't able to followup the functionality & Proper Actions are performed or not.
