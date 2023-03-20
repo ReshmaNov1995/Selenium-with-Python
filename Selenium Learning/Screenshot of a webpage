@@ -1,1 +1,2 @@
-
+driver.save_screenshot(path\name with extension)
+Ex: driver.save_screenshot("E:\\Automation\\Practice_Selenium\\ss.png")
