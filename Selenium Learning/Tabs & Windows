@@ -1,1 +1,4 @@
-
+driver.get("https://www.opencart.com/")
+driver.switch_to.new_window("tab") # It will open new tab
+driver.switch_to.new_window("window") # It will open new window
+driver.get("https://www.orangehrm.com/")
