@@ -1,1 +1,5 @@
 Testing Actions will be done in backend
+
+chrome_option = webdriver.ChromeOptions()
+chrome_option.headless=True # headless mode
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_option)
