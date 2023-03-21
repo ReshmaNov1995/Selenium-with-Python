@@ -1,1 +1,9 @@
+Install openpyxl
+openpyxl - can work with excel files of extensions (.xlsx, .xlsm)
 
+1) Read Data from Excel
+2) Write Data into Excel
+3) Data Driven TestCase
+
+Structure of Excel File:
+      File->workbook->sheets->rows->columns/cells
