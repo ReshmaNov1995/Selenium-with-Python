@@ -1,3 +1,5 @@
+Data Driven framework is used to drive test cases and suites from an external data feed. The data feed can be data sheets like xls, xlsx, and csv files.
+
 Install openpyxl
 openpyxl - can work with excel files of extensions (.xlsx, .xlsm)
 
