@@ -14,4 +14,5 @@ Whenever data is captured from the Excel file, It is always String data ype. So,
 
 
 Using Database:
-      Install pypyodbc
+      Install pypyodbc - MS SQL
+      Install psycopg2 - Postgres
