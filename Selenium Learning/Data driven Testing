@@ -9,3 +9,5 @@ openpyxl - can work with excel files of extensions (.xlsx, .xlsm)
 
 Structure of Excel File:
       File->workbook->sheets->rows->columns/cells
+
+Whenever data is captured from the Excel file, It is always String data ype. So, If we gonna do validation then it has to be changed to float datatype.
