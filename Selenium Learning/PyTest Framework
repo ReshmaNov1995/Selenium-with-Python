@@ -1,3 +1,13 @@
 PyTest Framework can be used to write various types of software tests, including unit tests, integration tests, end-to-end tests, and functional tests. 
 Its features include parametrized testing, fixtures, and assert re-writing.
 
+File name should start with test_file name. Ex - test_file01.
+Method name should have test. Ex - def test_method
+
+import pytest
+
+Note: Pycharm doesn't support pytest.
+So, It has to be run either by terminal or command prompt.
+
+In terminal, pytest -v -s filename
+-v verbose will give some details, -s will display the output.
