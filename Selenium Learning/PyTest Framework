@@ -10,4 +10,19 @@ Note: Pycharm doesn't support pytest.
 So, It has to be run either by terminal or command prompt.
 
 In terminal, pytest -v -s filename
--v verbose will give some details, -s will display the output.
+-v verbose will give some details, -s to print statements.
+
+How to work with PyTest Fixtures:
+  The purpose of PyTest Fixtures is to provide a fixed baseline upon which tests can reliably & repeatedly execute.
+  @pytest.fixture() 
+    --executes specific method before every test method.
+  @pytest.yield_fixture()
+    --executes specific method before & after every test method.
+    
+    
+ Multiple ways to Run TestCases:
+  pytest -v -s test_mod.py # run all tests in module/file
+  pytest -v -s E:\Automation\Practice_Selenium\PyTest # run all test(from all module) in a path
+  pytest -v -s test_module.py::test_method # run specific test method from a module
+  
+ 
