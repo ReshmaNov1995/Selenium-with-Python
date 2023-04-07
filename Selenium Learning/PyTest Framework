@@ -9,8 +9,8 @@ import pytest
 Note: Pycharm doesn't support pytest.
 So, It has to be run either by terminal or command prompt.
 
-In terminal, pytest -v -s filename
--v verbose will give some details, -s to print statements.
+In terminal, pytest -v -s -m filename
+-v verbose will give some details, -s to print statements, -m marker.
 
 How to work with PyTest Fixtures:
   The purpose of PyTest Fixtures is to provide a fixed baseline upon which tests can reliably & repeatedly execute.
@@ -25,4 +25,28 @@ How to work with PyTest Fixtures:
   pytest -v -s E:\Automation\Practice_Selenium\PyTest # run all test(from all module) in a path
   pytest -v -s test_module.py::test_method # run specific test method from a module
   
- 
+ Marker Types:
+    1) Custom Marker/User defined Marker
+    2) Skip Marker
+    3) xfail Marker
+    4) Parameterize Marker
+    
+1) Custom Marker/User defined Marker:
+  @pytest.mark.kr # kr is a user defined name.
+  
+  terminal ->  pytest -v -s -m kr test_Mark.py # This will run particular marker method alone.
+  
+2) Skip Marker:
+  @pytest.mark.skip # Reason is non mandatory. If reason has not given python will take any reason automatically.
+  @pytest.mark.skip(reason="rr")
+  
+2)a) a=100
+@pytest.mark.skipif(condition=a==100, reason="condition is skipped") 
+  if condition is true then it 'll be skipped. Else it 'll execute.
+  
+3) xfail Marker
+@pytest.mark.xfail - All the exceptions will be omitted
+@pytest.mark.xfail(raises=NameError, reason="condition is failed") - Exception based, If the parameter is true then exception will be omitted. If not it 'll throws exception.
+@pytest.mark.xfail(condition= a==200, reason="condition is failed") - same as above but here it is a condition based.
+
+4) Parameterize Marker
