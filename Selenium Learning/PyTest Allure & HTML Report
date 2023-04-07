@@ -20,3 +20,10 @@ To install using terminal,
 
 HTML Report:
 
+To install using terminal,
+  pip install pytest-html
+  
+  terminal -> 
+ 1) pytest --html=PyTest/HTMLReports/HTML1/anyname.html -v -s -n 3 PyTest/test_HTMLReport.py 
+ 2) click on anyname.html -> open with browser.
+ 
