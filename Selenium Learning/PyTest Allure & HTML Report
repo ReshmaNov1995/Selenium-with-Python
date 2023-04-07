@@ -1,0 +1,22 @@
+ALLURE Report:
+
+To install using terminal,
+  pip install allure-pytest
+  
+  To attach SS in Allure Report,
+      allure.attach(driver.get_screenshot_as_png(), name = "RK", attachment_type = AttachmentType.PNG)
+      
+ Create Folder for AllureReport,
+  After running the Allure Report, It has combination of JSON file & the defined SS mentioned already.
+  
+ terminal -> 
+ 1) pytest --alluredir=PyTest/AllureReports/Allure1 -v -s -n 3 PyTest/test_Allure.py 
+ # this will create the files in folder.
+ 
+ 2) allure serve PyTest/AllureReports/Allure1 # This will comprise all JSON files & SS into Allure Report.
+ 
+ Note: Make sure to update the Allure name as Allure1,Allure2,Allure3 and so on.
+
+
+HTML Report:
+
