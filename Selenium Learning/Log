@@ -1,0 +1,9 @@
+For each & every action, events, attempts, execution of code has to be captured using log. 
+Whenever the failure happens particular information has be traced using log.
+
+Logging level types:
+  Debug
+  Info
+  Warning
+  Error
+  Critical
