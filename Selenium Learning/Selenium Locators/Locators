@@ -25,8 +25,10 @@ Customised Locators:
     Xpath is an Address of the element.
   Types of Xpath,
     Absolute Xpath(Full Xpath)
+    Starts from root node. It 'll be impacted if there is a update in DOM Structure.
       Ex: /html/body/nav/div/div/div[2]/ul/li[1]/a
     Relative Xpath(Partial Xpath)
+    Starts from the middle of the DOM Structure. It 'll not impacted if there is a update in DOM Structure.
       Ex: //*[@id="navbarSupportedContent"]/div[2]/ul/li[1]/a
     
 Refer DOM.png File for Reference
