@@ -6,7 +6,7 @@ descendant - inner(inner) node
 following - equal node(down)
 following-sibling-->equal node's(down) sibling
 preceding - equal node(up)
-preceding-sibling-->equal node's(up) sibling
+preceding-sibling-->equal node's(up) sibling - Mention both preceding tag and sibling tag.
 
 Using Xpath axes, Can traverse from top to bottom & bottom to top
 
