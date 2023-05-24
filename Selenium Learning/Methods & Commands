@@ -7,7 +7,7 @@ Methods:
   clear()
   len()
   maximize_window()
-  get_attribute('value')
+  get_attribute('attributename')
   submit() - Perform the keyboard action ENTER(Ex: driver.find_element(By.XPATH, "//input[@class='gLFyf']").submit())
 
 Commands:
