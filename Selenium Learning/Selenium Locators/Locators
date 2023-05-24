@@ -20,7 +20,7 @@ Customised Locators:
   Xpath->Absolute Xpath, Relative Xpath,
     Xpath is defined as XML Path.
     It is a syntax or language for finding any element on the web page using XML path expression.
-    Xpath is used to find the location of any element on a webpage using HTML DOM structure.
+    Xpath is used to find the location of any element on a webpage in the HTML DOM structure.
     Xpath can be used to navigate through elements & attributes in DOM.
     Xpath is an Address of the element.
   Types of Xpath,
