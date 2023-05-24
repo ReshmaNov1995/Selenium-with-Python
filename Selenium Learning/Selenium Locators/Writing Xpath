@@ -30,4 +30,4 @@ contains & starts-with, or mostly used for dynamic elements,
   or--> Ex: //input[@id='start' or @id='stop']
 
 If the webelement has texts with space use normalize-space()='text'. Here normalize-space() is a text method.
-Ex: //button[normalize-space()='Click for JS Prompt']
+Ex: //button[normalize-space()='Click for JS Prompt'] # This will not work for link tag like "a".
