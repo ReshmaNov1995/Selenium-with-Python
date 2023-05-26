@@ -1,6 +1,6 @@
 File Download:
               Location can set up to download via code.
-              Ex: preferences = {"download.default directory":"E:\Downloads"}
+              Ex: preferences = {"download.default directory":"E:\\Downloads"}
              
 Instead of this use,
 import os
@@ -15,3 +15,5 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 
 
 File Upload
+driver.find_element(By.XPATH, "//input[@id='file-upload']").send_keys("C:\\Users\\Reshma S\\Downloads\\Export - 2023-03-17T191519.716.pdf")
+This will upload the file
