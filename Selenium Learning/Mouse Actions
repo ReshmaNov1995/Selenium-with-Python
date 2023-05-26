@@ -1,5 +1,5 @@
 Using ActionChains class we are going to perform the mouse opeations.
-object of Actionchains class - Actionchains(driver)
+object of ActionChains class - ActionChains(driver)
 
 Mouse Actions:
       Mouse hover
