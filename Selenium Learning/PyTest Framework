@@ -29,7 +29,7 @@ How to work with PyTest Fixtures:
     1) Custom Marker/User defined Marker
     2) Skip Marker
     3) xfail Marker
-    4) Parametrize Marker
+    4) Parameterize Marker
     
 1) Custom Marker/User defined Marker:
   @pytest.mark.kr # kr is a user defined name.
