@@ -54,7 +54,7 @@ How to work with PyTest Fixtures:
   Parameters can be passed using parametrize marker. Multiple set of parameter can be passed in this marker as a list format.
   Multiple set of parameters can be run sequentially. 
   
-  To run the Multiple set of parameters simultaneously, install # xdist running paralelly pip install pytest-xdist.
+  To run the Multiple set of parameters simultaneously, install # xdist running parallely pip install pytest-xdist.
   terminal -> #pytest -v -s -n 3 PyTest/test_Parameterize.py # -n number of Masters's slave. 3 is a slave(Parameter) count. 
 
 
