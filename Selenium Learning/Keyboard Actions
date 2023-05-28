@@ -1,4 +1,4 @@
-Using ActionChains class we are going to perform the Keyboard opeations.
+Using ActionChains class we are going to perform the Keyboard operations.
 object of Actionchains class - Actionchains(driver)
 
 act = ActionChains(driver)
