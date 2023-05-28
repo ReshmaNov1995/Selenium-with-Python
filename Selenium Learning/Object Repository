@@ -5,9 +5,9 @@ Test Data also a concept of Object Repository.
 
 Object Repository can be acheived using,
 Storing in,
-  Excel File
-  CSV File
-  ini File
+  Excel File - Test Data can be stored
+  CSV File - Test Data can be stored
+  ini File -> Locators can be stored.
   
 Refer Configuration Folder, PyTest Folder
 Creating a Elements in a ini file is a best practice.
