@@ -1,0 +1,3 @@
+An object repository is a centralized storage of locators in the form of objects.
+QAs store all the element locators in a separate file, also referred to as a property file (. properties) in Selenium. 
+The property file stores information in a key-value pair format.
