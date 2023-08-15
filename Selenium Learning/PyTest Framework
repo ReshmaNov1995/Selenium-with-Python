@@ -56,7 +56,7 @@ How to work with PyTest Fixtures:
   
   To run the Multiple set of parameters simultaneously, install # xdist running parallely pip install pytest-xdist.
   terminal -> #pytest -v -s -n 3 PyTest/test_Parameterize.py # -n number of Masters's slave. 3 is a slave(Parameter) count. 
-
+  Here 3 means to set of Parameters to run Parallely.
 
 
 
