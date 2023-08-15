@@ -1,5 +1,5 @@
 PyTest Framework can be used to write various types of software tests, including unit tests, integration tests, end-to-end tests, and functional tests. 
-Its features include parametrized testing, fixtures, and assert re-writing.
+Its features include parameterized testing, fixtures, and assert re-writing.
 
 File name should start with test_file name. Ex - test_file01.
 Method name should have test. Ex - def test_method
