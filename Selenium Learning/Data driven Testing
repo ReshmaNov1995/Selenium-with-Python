@@ -16,3 +16,7 @@ Whenever data is captured from the Excel file, It is always String data ype. So,
 Using Database:
       Install pypyodbc - MS SQL
       Install psycopg2 - Postgres
+
+Gothrough the Configuration Folder for csv files
+ with open('E:\Myn\ddt2.csv') as cards:
+    csv_reader = csv.reader(cards)
