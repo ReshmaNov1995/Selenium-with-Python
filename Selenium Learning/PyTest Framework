@@ -17,7 +17,7 @@ How to work with PyTest Fixtures:
   @pytest.fixture() 
     --executes specific method before every test method.
   @pytest.yield_fixture()
-    --executes specific method before & after every test method.
+    --executes specific method before & after every test method based on yield keyword.
     
     
  Multiple ways to Run TestCases:
