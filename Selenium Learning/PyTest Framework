@@ -17,7 +17,9 @@ How to work with PyTest Fixtures:
   @pytest.fixture() 
     --executes specific method before every test method.
 
-@pytest.fixture(scope="session") - if t1 method is fixture method and t1 method is called in t2 method, t3 method.
+@pytest.fixture(scope="class") - default only inside class. same as scope = function.
+@pytest.fixture(scope="module") - It will execute based on each and every class in the python file. same as scope = function.
+@pytest.fixture(scope="session/package") - if t1 method is fixture method and t1 method is called in t2 method, t3 method.
 Then t1 method will execute first then t2 method will execute. t3 method will execute. Note: t1 method only execute once.
 @pytest.fixture(scope="function") - default. if t1 method is fixture method and t1 method is called in t2 method, t3 method.
 Then t1 method will execute first then t2 method will execute. t1 method will execute first then t3 method will execute. 
