@@ -1,5 +1,7 @@
 Installation required,
+
 pip install selenium
 pip install webdriver-manager
 pip install pytest
-pip install allure
+pip install allure-pytest
+pip install pytest-html
