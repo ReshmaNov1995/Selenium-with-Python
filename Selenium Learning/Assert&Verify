@@ -1,0 +1,14 @@
+Assert:
+driver.title == "LIMS"
+If above line is True, It will execute the next line.
+If false, it throws assertion error.
+
+Assert types:
+assert equals -> above example
+assert true -> if true, It will goes nextline.
+assert false -> if false, It will goes nextline.
+assert null -> if null, It will goes nextline.
+
+Verify:
+driver.title = "value"
+It will give True/False that is verify(Boolean value).
