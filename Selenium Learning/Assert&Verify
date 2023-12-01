@@ -4,10 +4,34 @@ If above line is True, It will execute the next line.
 If false, it throws assertion error.
 
 Assert types:
-assert equals -> above example
-assert true -> if true, It will goes nextline.
-assert false -> if false, It will goes nextline.
-assert null -> if null, It will goes nextline.
+assert equal -> 
+assertEqual – This assertion has two parameters. A comparison is done between the first and second parameter. 
+In case both of them match, the test case is considered a pass; 
+else the test case is failed.
+Syx: assertEqual("Tutorialspoint", "Tutorialspoint")
+
+assert notequals -> 
+assertNotEqual – This assertion can have more than two parameters. 
+A comparison is done between the first and second parameter. 
+In case both of them do not match, the test case is considered a pass; 
+else the test case is failed.
+Syx: assertNotEqual("Tutorials", "Tutorialspoint")
+
+assert true -> 
+assertTrue – This assertion can handle more than two parameters. 
+A comparison is done between the first and second parameter. 
+In case both of them do match, the test case is considered a pass; 
+else the test case is failed.
+Syx: assertTrue((hd="Tutorialspoint") OR (hd="Selenium"),"Matching header")
+
+assert false -> 
+assertFalse – This assertion can handle more than two parameters. 
+A comparison is done between the first and second parameter. 
+In case both of them do not match, the test case is considered a pass; 
+else the test case is failed.
+Syx: assertFalse(2>3,"2 is not greater than 3")
+
+REfer the link -> https://www.tutorialspoint.com/what-are-assertions-in-selenium-with-python
 
 Verify:
 driver.title = "value"
