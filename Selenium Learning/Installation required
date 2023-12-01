@@ -5,3 +5,5 @@ pip install webdriver-manager
 pip install pytest
 pip install allure-pytest
 pip install pytest-html
+pip install pytest-xdist -> pytest parallel execution
+pip install requests -> For broken link requests
