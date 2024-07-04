@@ -23,7 +23,10 @@ How to work with PyTest Fixtures:
 Then t1 method will execute first then t2 method will execute. t3 method will execute. Note: t1 method only execute once.
 @pytest.fixture(scope="function") - default. if t1 method is fixture method and t1 method is called in t2 method, t3 method.
 Then t1 method will execute first then t2 method will execute. t1 method will execute first then t3 method will execute. 
- 
+
+(scope="session/package") - Diff
+(scope="module")/"Function"/"class" - same
+
 @pytest.yield_fixture()
     --executes specific method before & after every test method based on yield keyword.
     
